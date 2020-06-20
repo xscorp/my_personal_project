@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(to left,#799ce7,#363ab4);
+}
+.kiba-header{
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20%;
+    margin-top:20%
+}
+.header-desc{
+    color:antiquewhite;
+    font-family: 'Odibee Sans', cursive;
+    font-size:30px;
+    margin-left: 13.5%;
+}
+.login{
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height:40px;
+    border-radius: 15px;
+    margin-left: 20%;
+    border: none;
+}
+.container{
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    margin-top: -25%;
+    margin-left:52%;
+    border-radius: 15px;
+}
+.register-form{
+    margin-left: 10%;
+}
+.email{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width:70%;
+    height: 8%;
+}
+.fname{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width:70%;
+    height: 8%;
+}
+.password{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width:70%;
+    height: 8%;
+}
+.register{
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height:40px;
+    border-radius: 15px;
+    margin-left: 33%;   
+    background-color: #363ab4; 
+    border:none;
+    color: antiquewhite;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    margin-left:30%;
+}
