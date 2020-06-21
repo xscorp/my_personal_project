@@ -3,7 +3,7 @@
 We were asked to create a web application with primarily these features:
 * Presence of basic Registration and Login System
 * Feature to view online/active users
-* Feature that displays user information on hovering on user's avatar
+* Feature to display user information on hovering on user's avatar
 * Feature to view access logs with timestamp of users
 * The above 2 special functionalities should be visible to only specific accounts.
 
