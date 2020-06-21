@@ -53,6 +53,10 @@ If the admin credentails are used, the following details are displayed.
 ![](/media/access_logs_for_administrator.png)
 
 
+## A word about security
+This project has been designed by keeping security in mind. All user input is sanatized using PHP functions so the application is not vulnerable to many cyber attacks. The application has been tested multiple times.
+
+
 # Summary:
 I have tried to implement all the features demanded by Navigus. Kindly Note that folling are the administrator credentials which can be used for viewing online users and access logs:
 
