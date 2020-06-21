@@ -3,6 +3,7 @@
 We were asked to create a web application with primarily these features:
 * Presence of basic Registration and Login System
 * Feature to view online/active users
+* Feature that displays user information on hovering on user's avatar
 * Feature to view access logs with timestamp of users
 * The above 2 special functionalities should be visible to only specific accounts.
 
@@ -38,6 +39,10 @@ When you are logged in as admin using those admin credentaials, the following de
 ![](/media/online_users_for_admin.png)
 
 
+### Hover on User's avtar
+If the user hovers on the avatar of a user, additional details like Full Name and Email are displayed.
+![](/media/hover.png)
+
 
 ## Seeing Access Logs of Users
 Like the active user functionality, this feature also requires administrator account. 
@@ -45,4 +50,13 @@ This allows the privileged account to see which users logged in at which time. I
 ![](/media/access_logs_for_others.png)
 
 If the admin credentails are used, the following details are displayed.
-![](/media/access_logs_for_administrator)
+![](/media/access_logs_for_administrator.png)
+
+
+# Summary:
+I have tried to implement all the features demanded by Navigus. Kindly Note that folling are the administrator credentials which can be used for viewing online users and access logs:
+
+Email: ```admin@navigus.com```
+Password: ```admin```
+
+**This project is created by Shashank Barthwal**
