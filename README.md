@@ -57,6 +57,8 @@ If the admin credentails are used, the following details are displayed.
 I have tried to implement all the features demanded by Navigus. Kindly Note that folling are the administrator credentials which can be used for viewing online users and access logs:
 
 Email: ```admin@navigus.com```
+
+
 Password: ```admin```
 
 **This project is created by Shashank Barthwal**
