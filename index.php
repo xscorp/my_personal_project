@@ -8,8 +8,9 @@
 </head>
 <body>
 </body>
-<h2 class="project">Navigus</h2>
-<h3 class="awsm">Application for Navigus round!</h3><br/><br/><br/><br/>
+<h2 class="project">NAVIGUS</h2>
+<h3 class="awsm">Application for Navigus round 2</h3>
+<h3 class="awsm">Created by Shashank Barthwal</h3><br/><br/><br/><br/>
 <div align="center">
 <a href="register.php"><button>Register</button></a>
 <a href="login.php"><button>Login</button></a>

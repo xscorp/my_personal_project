@@ -26,9 +26,9 @@
 <div class="container">
     <form method="post" class="register-form" action="register.php">
         <h2 class="header"><br>&nbsp;Register</h2>
-        <input type="text" class="fname" placeholder="Name" name="fname"><br><br>
-        <input type="text" class="email" placeholder="Email"name="email"><br><br>
-        <input type="password" class="password" placeholder="password" name="password"><br><br>
+        <input type="text" class="fname" placeholder="Name" name="fname" required><br><br>
+        <input type="text" class="email" placeholder="Email"name="email" required><br><br>
+        <input type="password" class="password" placeholder="password" name="password" required><br><br>
         <input type="submit" class="register" name="register" value="Register"/>
       </form> 
 </div>   
@@ -39,9 +39,9 @@
 <?php
 	if(isset($_POST["register"]))
 	{
-		$fname = $_POST["fname"];
-		$email = $_POST["email"];
-		$password = $_POST["password"];
+		$fname = htmlspecialchars($_POST["fname"]);
+		$email = htmlspecialchars($_POST["email"]);
+		$password = htmlspecialchars($_POST["password"]);
 		$register_query = "insert into users (fname,email,password) values ('$fname' , '$email' , '$password')";
 	
 		if($db->query($register_query) === TRUE) {

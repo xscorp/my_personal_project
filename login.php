@@ -26,8 +26,8 @@
 <div class="container">
     <form method="post" class="register-form" action="">
         <h2 class="header"><br>&nbsp;&nbsp;&nbsp;&nbsp;Login</h2>
-        <input type="text" class="fname" placeholder="Email" name="email"><br><br>
-        <input type="password" class="email" placeholder="Password" name="password"><br><br>
+        <input type="text" class="fname" placeholder="Email" name="email" required><br><br>
+        <input type="password" class="email" placeholder="Password" name="password" required><br><br>
         <input type="submit" class="register" name="login" value="Login"/>
       </form> 
 </div>   
@@ -37,8 +37,8 @@
 <?php
 	if(isset($_POST["login"]))
 	{
-		$email = $_POST["email"];
-		$password = $_POST["password"];
+		$email = htmlspecialchars($_POST["email"]);
+		$password = htmlspecialchars($_POST["password"]);
 		$login_query = "select * from users where email = '$email' and password = '$password'";
 	
 		$result=$db->query($login_query);

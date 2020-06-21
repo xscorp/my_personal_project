@@ -22,14 +22,15 @@
 	} 
 	$db->select_db("$dbname");
 
-	$retrive_query = "select fname from users where status = 'on'";
+	$retrive_query = "select fname, email from users where status = 'on'";
 	$result = $db->query($retrive_query);
 	$num_rows=$result->num_rows;
 	echo "<h1 align='center'>Online/Active users</h1>";
 	for($i=0;$i<$num_rows;$i++) 
 	{   
 		$row=$result->fetch_row();
-		$user_icon = "<div align='center'><img src='usericon.png' width='100' height='100'/><br/>" . $row[0] . "</div><br/><br/>";
+		$detail = "Name: " . $row[0] . "\nEmail: " . $row[1];
+		$user_icon = "<div align='center'><img title='$detail' src='usericon.png' width='100' height='100'/><br/>" . $row[0] . "</div><br/><br/>";
 		echo $user_icon;
 	}
 ?>
