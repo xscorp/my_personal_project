@@ -58,7 +58,7 @@ This project has been designed by keeping security in mind. All user input is sa
 
 
 # Summary:
-I have tried to implement all the features demanded by Navigus. Kindly Note that folling are the administrator credentials which can be used for viewing online users and access logs:
+I have tried to implement all the features demanded by Navigus. Kindly Note that folloing are the administrator credentials which can be used for viewing online users and access logs:
 
 Email: ```admin@navigus.com```
 
