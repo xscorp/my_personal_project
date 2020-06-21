@@ -2,7 +2,7 @@
 	session_start();
 	include("config.php"); 
 
-	if(isset($_SESSION["user"]))
+	if(isset($_SESSION["user"]) && $_SESSION["user"] == "admin@navigus.com")
 	{
 		echo "Logged in as: <b>" . $_SESSION["user"] . "</b>";
 		echo "<form action='logout.php'>";
@@ -11,7 +11,11 @@
 	}
 	else
 	{
-		Header("location:login.php");
+		echo "<h3 align='center'>You must be an admin to view Access Logs</h3>";
+                echo "<h3 align='center'>Administrator credentials:</h3>";
+                echo "<h3 align='center'>Email: <b style='color:red'>admin@navigus.com</b></h3>";
+                echo "<h3 align='center'>Password: <b style='color:red'>admin</b></h3>";
+                exit();
 	}
 
 	$db = new mysqli("$dbhost" , "$dbuser" , "$dbpass");
@@ -52,3 +56,4 @@
 	echo "</body>";
 	echo "</html>";
 ?>
+
