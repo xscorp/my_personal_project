@@ -6,5 +6,43 @@ We were asked to create a web application with primarily these features:
 * Feature to view access logs with timestamp of users
 * The above 2 special functionalities should be visible to only specific accounts.
 
-## Basic Registration and Login system:
-![](/media/registration.png)
+## Welcome Page
+This page lists all the top level features of the application.
+![](/media/index.png)
+
+
+
+## Registration Page
+When user hits the Register button, the followin form shows up.
+![](/media/register.png)
+
+
+
+## Login Page
+Once the user finishes registration, user can click on Login and the followin form shows up.
+![](/media/login.png)
+
+
+## Dashboard
+When user successfully logs in, a redirection to "dashboard.php" takes place.
+![](/media/dashboard.png)
+
+
+
+## Seeing Online/Active Users
+This functionality allows **specific users** to see the currently active users on the website.
+Only administrators are allowed to view the Active Users. When a normal user tries to access this page, the following screen pops up.
+![](/media/online_users_for_others.png)
+
+When you are logged in as admin using those admin credentaials, the following details show up.
+![](/media/online_users_for_admin.png)
+
+
+
+## Seeing Access Logs of Users
+Like the active user functionality, this feature also requires administrator account. 
+This allows the privileged account to see which users logged in at which time. If a normal user tries to access this page, he gets the following message.
+![](/media/access_logs_for_others.png)
+
+If the admin credentails are used, the following details are displayed.
+![](/media/access_logs_for_administrator)
